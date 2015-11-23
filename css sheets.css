@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 80px;
+}
+
+header {
+    background-color: #CA7303;
+    width: 100%;
+    line-height: 2.5;
+}
+
+input {
+    width: 70%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    height: 40px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+label {
+    color: #FFE44C;
+    font-size: 16px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.button:hover {
+    background-color: #FFA65A;
+}
+
+.button {
+    border: 3.5px solid #7F3B00;
+}
+
+h1 {
+    font-family: 'Source Serif Pro', serif;
+    font-size: 2.1rem;
+    margin-left: 4%;
+    margin-bottom: 1px;
+    color: white;
+}
+
+h2 {
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 1.5rem;
+    color: #D7E393;
+    margin-left: 4%;
+    margin-top: 0px;
+}
+
+div {
+    margin-left: 4%;
+    margin-top: 20px;
+    float: left;
+    width: 40%;
+}
+
+
+/*===============================================*/
+
+@media only screen and (max-width: 450px) {
+    h1 {
+        padding-left: 30px;
+        font-family: 'Source Serif Pro', serif;
+    }
+    label {
+        display: none;
+    }
+    body {
+        background-image: url("https://s.yimg.com/fz/api/res/1.2/ZRwoFGFcmf8SmVZ1XHuAvw--/YXBwaWQ9c3JjaGRkO2g9MTIwMDtxPTk1O3c9MTkyMA--/http://nabataea.net/Photos/Treasury_Petra_%20Jordan.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+    image {
+        max-width: 80%;
+        height: auto;
+    }
+    div {
+        margin-left: 30px;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 450px) and (max-width: 900px) {
+    label {
+        display: inline-block;
+        width: 100%;
+    }
+    body {
+        background-image: url("https://s.yimg.com/fz/api/res/1.2/ZRwoFGFcmf8SmVZ1XHuAvw--/YXBwaWQ9c3JjaGRkO2g9MTIwMDtxPTk1O3c9MTkyMA--/http://nabataea.net/Photos/Treasury_Petra_%20Jordan.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+}
+
+
+/*img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}*/
+
+
+/*=======================================================*/
+
+@media all and (min-width: 900px) {
+    label {
+        display: inline-block;
+        width: 25%;
+    }
+    body {
+        background-image: url("https://s.yimg.com/fz/api/res/1.2/ZRwoFGFcmf8SmVZ1XHuAvw--/YXBwaWQ9c3JjaGRkO2g9MTIwMDtxPTk1O3c9MTkyMA--/http://nabataea.net/Photos/Treasury_Petra_%20Jordan.jpg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+    }
+}

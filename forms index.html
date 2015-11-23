@@ -1,0 +1,43 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Responsive Form </title>
+    <link type="text/css" rel="stylesheet" href="css%20sheets.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Serif+Pro:600' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather+Sans:700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <header>
+        <h1>This is a form</h1>
+        <h2>Fill it out</h2>
+    </header>
+
+
+    <form action="process.aspx" method="post">
+        <div class="box">
+            <label for="FirstName">First Name</label>
+            <input type="text" id="fname" name="FirstName" title="Enter your First Name" class="md" placeholder="First name" required/>
+        </div>
+        <div class="box">
+            <label for="LastName">Last Name</label>
+            <input type="text" id="lname" name="LastName" title="Please enter your Last Name" class="md" placeholder="Last name" required/>
+        </div>
+        <div class="box">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" class="md" title="Please enter your Email Address" placeholder="email" required/>
+        </div>
+        <div class="box">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" title="Password" class="md" placeholder="password" required/>
+        </div>
+        <div>
+            <input id="saveForm" name="saveForm" type="submit" value="Submit" class="button">
+        </div>
+    </form>
+</body>
+
+</html>
